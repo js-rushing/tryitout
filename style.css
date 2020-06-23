@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bank, .left-bank, .right-bank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-bank {
+    border-radius: 10px;
+  }
+  .right-bank {
+    border-radius: 25px;
+  }
+  h2 {
+    font-family: Arial, sans-serif;
+    color: green;
+  }
+  

@@ -1,0 +1,31 @@
+$main-fonts: Arial, sans-serif;
+$headings-color: green;
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-bank {
+    @extend .bank;
+    border-radius: 10px;
+}
+
+.right-bank {
+    @extend .bank;
+    border-radius: 25px;
+}
+
+h2 {
+    font-family: $main-fonts;
+    color: $headings-color;
+}
